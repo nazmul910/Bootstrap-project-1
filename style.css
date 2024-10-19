@@ -1,0 +1,243 @@
+/* Navber start */
+#Navbar .container-fluid{
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  
+}
+
+
+
+.navbar img{
+  width: 200px;
+  margin-right: 0px;
+  
+}
+
+
+.navbar ul li{
+  padding: 0 10px;
+  transition: .5s ease;
+
+}
+.navbar ul li:hover{
+  text-decoration: underline;
+  color: #FBB244;
+  font-size: large;
+}
+
+.navbar form .btn{
+  background-color:#081158;
+  color: #FBB244;
+  padding: 8px 30px;
+}
+.navbar form .btn:hover{
+  transition: .5s ease;
+  background-color: white;
+  border:3px solid rgb(146, 144, 144);
+  color: #081158;
+}
+
+/* Navber end */
+
+/* hero section start */
+
+.hero .row h1{
+  color: #081158;
+}
+.hero .text2{
+  color: rgb(159, 158, 158);
+}
+.hero .btn1{
+  background-color: #081158;
+  border-radius: 25px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.hero .btn2{
+  background-color: white;
+  border-radius: 25px;
+  color: #081158;
+  border: 1px #081158 solid;
+  font-size: 20px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.hero .btn1:hover{
+  background-color: white;
+  color: #081158;
+  border: 1px #081158 solid;
+  transition: .5s ease-in-out;
+}
+.hero .btn2:hover{
+  background-color: #081158;
+  color: white;
+  border: 1px #081158 solid;
+  transition: .5s ease-in-out;
+}
+
+/* hero section end */
+
+/* features section start */
+
+
+#features h1{
+  color: #081158;
+}
+
+#features .hero1{
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+  box-shadow: 5px 10px 10px black;
+}
+
+#features .hero1 .icon span{
+  font-size:40px ;
+}
+
+#features .hero1 p{
+  color: rgb(141, 141, 141);
+}
+
+/* features section end */
+
+
+/* About section start */
+
+#about .hero p{
+  font-size: 20px;
+  color: rgb(168, 168, 168);
+  margin-top: -2px;
+}
+
+
+/* About section end */
+
+
+/* Services section start */
+
+#card .icons{
+  font-size: 55px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+#card .card:hover{
+  box-shadow: 5px 10px 10px rgb(101, 100, 100);
+}
+
+/* Services section end */
+
+/* Footer section start */
+
+
+
+#footer .fa-brands{
+  font-size: 40px;
+  
+}
+
+#footer ul li{
+  line-height: 50px;
+}
+
+#footer ul li a{
+  text-decoration: none;
+  color: rgb(121, 121, 121);
+  font-size: 15px;
+}
+
+#footer ul li a:hover{
+  text-decoration: underline;
+}
+
+#footer .last{
+  font-size: 20px;
+}
+
+#footer .last a{
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+/* Footer section end */
+
+
+
+
+
+
+
+/* MEDIA QUARY  Start*/
+
+@media screen and (max-width:992px) {
+ 
+
+ 
+  #card .card .circl{
+    margin-top: 100px;
+  }
+
+
+
+}
+
+@media screen and (max-width:767px) {
+  
+  .navbar img{
+    width: 200px;
+    margin-right: 10px;
+    
+  }  
+
+#features .hero1{
+  width: 90%;
+  margin-top: 20px;
+}
+
+#card .card{
+  width: 90%;
+}
+
+#card .card .circl{
+  margin-top:0px;
+}
+
+
+
+}
+
+@media screen and (max-width:467px) {
+.navbar img{
+    width: 100px;
+    margin-right: 0px;
+    
+  } 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUARY  end*/
+
+
